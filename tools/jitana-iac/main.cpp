@@ -82,8 +82,8 @@ void run_iac_analysis()
 #endif
 
     // Compute the content-provider-flow edges.
-    std::cout << "Computing the content_provider-flow..." << std::endl;
-    jitana::add_content_provider_flow_edges_string(vm);
+    //std::cout << "Computing the content_provider-flow..." << std::endl;
+    //jitana::add_content_provider_flow_edges_string(vm);
 
     std::cout << "Writing graphs..." << std::endl;
     write_graphs(vm);
